@@ -1,8 +1,10 @@
 
 var i = 5;
-for (var i = +1; i <= 120; i++) {
-  i+=9;
-  console.log([i]);
+for (; i<=120; i+=10) {
+  var text = "current value is " + i;
+  text;
+
+  console.log(text);
 }
 
 
