@@ -1,7 +1,7 @@
 
-var i = 5;
-for (; i<=120; i+=10) {
-  var text = "current value is " + i;
+var counter = 5;
+for (; counter<=120; counter+=10) {
+  var text = "current value is " + counter;
   text;
 
   console.log(text);
