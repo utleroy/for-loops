@@ -1,6 +1,5 @@
 
 for (var counter = 5; counter<=120; counter+=10) {
-
   var output = "current value is " + counter;
   output;
 
@@ -8,26 +7,20 @@ for (var counter = 5; counter<=120; counter+=10) {
 }
 
 for (var i = 4096; i >=1; i = i / 2) {
-var output = i;
-output;
+  var output = "current value is " + i;
+  output;
 
   console.log(output);
 }
 
-// Array iteration
+var President = ['George Washington', 'John Adams', "Thomas Jefferson"];
+var number = [1,2,3];
+for (var i = 0; i < President.length; i++) {
+  var output = "President " + "#" + number[i] + " was " + President[i];
 
-// Create an array that contains the names of American Presidents. Loop over that array with a for loop, and use string concatenation with console.log() to output the order and name of each President (see example below).
+  console.log(output);
+}
 
-// Example output:
-
-// President #1 was George Washington
-
-// President #2 was John Adams
-
-// President #3 was Thomas Jefferson
-
-// ...
-// Object iteration
 
 // Use can use another kind of for loop to iterate over objects. Iterate over the object below and use console.log() to output the names of the keys in the object.
 
